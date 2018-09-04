@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, './dist'),
     filename: 'index.js',
-    library: libraryName,
+    library: 'socket-envelope',
     libraryTarget: 'umd',
     publicPath: '/dist/',
     umdNamedDefine: true
