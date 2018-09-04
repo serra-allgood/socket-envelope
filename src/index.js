@@ -1,3 +1,1 @@
-import SocketEnvelope from './SocketEnvelope.jsx';
-
-export default SocketEnvelope;
+export * from './SocketEnvelope.jsx';

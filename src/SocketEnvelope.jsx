@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export default class SocketEnvelope extends Component {
+export class SocketEnvelope extends Component {
   componentDidMount() {
     const { url, onMessage } = this.props;
     this.setState({ socket: new WebSocket(url) }, () => {
