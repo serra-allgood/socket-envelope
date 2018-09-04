@@ -12,6 +12,8 @@ yarn add socket-envelope
 
 ## Usage
 ```javascript
+import { SocketEnvelope } from 'socket-envelope';
+
 <SocketEnvelope url={url}
                 envelope={envelope}
                 onMessage={this.onMessage}
