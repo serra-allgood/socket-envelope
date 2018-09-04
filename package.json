@@ -1,0 +1,36 @@
+{
+  "name": "socket-envelope",
+  "version": "1.0.0",
+  "description": "A React component implementation of the WebSocket protocol",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/serracorwin/socket-envelope.git"
+  },
+  "keywords": [
+    "React",
+    "WebSocket"
+  ],
+  "author": "Serra Allgood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serracorwin/socket-envelope/issues"
+  },
+  "homepage": "https://github.com/serracorwin/socket-envelope#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.17.2"
+  }
+}
