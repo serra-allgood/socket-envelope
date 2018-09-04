@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/serracorwin/socket-envelope#readme",
   "dependencies": {
-    "prop-types": "^15.6.2",
+    "prop-types": "*",
     "react": "*"
   },
   "devDependencies": {

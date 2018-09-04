@@ -26,7 +26,7 @@ export default class SocketEnvelope extends Component {
   }
 }
 
-Socket.propTypes = {
+SocketEnvelope.propTypes = {
   url: PropTypes.string.isRequired,
   envelope: PropTypes.object,
   onMessage: PropTypes.func.isRequired,
