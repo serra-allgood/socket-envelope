@@ -1,6 +1,6 @@
 {
   "name": "socket-envelope",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React component implementation of the WebSocket protocol",
   "main": "dist/index.js",
   "scripts": {
