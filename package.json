@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "test": "jest",
-    "prepublish": "npm run build"
+    "prepublish": "rm -rf ./dist && npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,16 +22,19 @@
     "url": "https://github.com/serracorwin/socket-envelope/issues"
   },
   "homepage": "https://github.com/serracorwin/socket-envelope#readme",
-  "dependencies": {
-    "prop-types": "*",
-    "react": "*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2"
   }
 }
